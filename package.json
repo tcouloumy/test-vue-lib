@@ -1,11 +1,16 @@
 {
   "name": "o5r-components",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "main": "dist/o5r-components.common.js",
+  "module": "dist/o5r-components.umd.js",
+  "files": [
+    "dist/*"
+  ],
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-lib": "vue-cli-service build --target lib --name vue-o5r-components ./src/main.js",
+    "build-lib": "vue-cli-service build --target lib --name o5r-components ./src/main.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
